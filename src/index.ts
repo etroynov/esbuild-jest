@@ -12,7 +12,7 @@ import { getExt, loaders } from "./utils";
 
 const transformer: Transformer = {
   canInstrument: true,
-   process(
+  process(
     content: string,
     filename: string,
     opts?: JestTransformOptions
