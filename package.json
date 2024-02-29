@@ -1,5 +1,5 @@
 {
-  "name": "esbuild-jest",
+  "name": "esbuild-jest2",
   "version": "0.5.0",
   "description": "Jest plugin to use esbuild for transformation",
   "main": "esbuild-jest.js",
