@@ -4,7 +4,7 @@
 With this transformer you can use and transform (ts, js, tsx and jsx) files
 
 [![npm](https://img.shields.io/npm/v/esbuild-jest.svg)](https://www.npmjs.com/package/esbuild-jest)
-![build status](https://github.com/aelbore/esbuild-jest/actions/workflows/ci.yml/badge.svg)
+![build status](https://github.com/etroynov/esbuild-jest/actions/workflows/ci.yml/badge.svg)
 
 ## Install
 
@@ -56,3 +56,30 @@ export interface Options {
 
 > Note: if you are using tsconfig.json and jsconfig.json with "paths", Please look `alias-hq` and there documentation https://github.com/davestewart/alias-hq/blob/master/docs/integrations.md
 
+
+# Authors
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img
+          src="https://avatars.githubusercontent.com/u/18069807?v=4"
+          width="150"
+        />
+        <br>
+        <a href="https://github.com/aelbore">Jay Aelbore</a>
+        <div>(Author)</div>
+      </td>
+      <td align="center">
+        <img
+          src="https://avatars.githubusercontent.com/u/4591518?v=4"
+          width="150"
+        />
+        <br>
+        <a href="https://github.com/etroynov">Evgenii Troinov</a>
+        <div>(maintainer)</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
