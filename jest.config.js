@@ -3,7 +3,7 @@ const hq = require('alias-hq');
 module.exports = {
   transform: {
     '\\.[jt]sx?$': [
-      'esbuild-jest2',
+      './dist/index.js',
       {
         loaders: {
           '.spec.js': 'jsx',
