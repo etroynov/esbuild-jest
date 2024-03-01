@@ -1,6 +1,6 @@
 # esbuild-jest
 
-### A Jest transformer using esbuild
+## A Jest transformer using esbuild
 With this transformer you can use and transform (ts, js, tsx and jsx) files
 
 ## Install
