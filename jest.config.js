@@ -1,17 +1,19 @@
-const hq = require('alias-hq')
+const hq = require('alias-hq');
 
 module.exports = {
   transform: {
-    "\\.[jt]sx?$":  [ 'esbuild-jest', { 
+    '\\.[jt]sx?$': [
+      './dist/index.js',
+      {
         loaders: {
           '.spec.js': 'jsx',
-          '.js': 'jsx'
-        }
-      }
-    ]
+          '.js': 'jsx',
+        },
+      },
+    ],
   },
   /// This will resolve any tsconfig.compilerOptions.paths
   moduleNameMapper: hq.get('jest'),
-  testPathIgnorePatterns: ['/node_modules/', '/dist/', '/types/' ],
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node']
-}
+  testPathIgnorePatterns: ['/node_modules/', '/dist/', '/types/'],
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+};

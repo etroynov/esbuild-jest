@@ -1,10 +1,7 @@
 # esbuild-jest
 
-### A Jest transformer using esbuild
+## A Jest transformer using esbuild
 With this transformer you can use and transform (ts, js, tsx and jsx) files
-
-[![npm](https://img.shields.io/npm/v/esbuild-jest.svg)](https://www.npmjs.com/package/esbuild-jest)
-![build status](https://github.com/etroynov/esbuild-jest/actions/workflows/ci.yml/badge.svg)
 
 ## Install
 
