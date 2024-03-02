@@ -1,8 +1,6 @@
-# esbuild-jest
-
 ## What is the esbuild-jest2?
 
-This is a for of [esbuild-jest](https://github.com/aelbore/esbuild-jest), this fork was created because the original project was abandoned and it also includes some changes from another similar projects such like:
+This is a for of [esbuild-jest](https://github.com/aelbore/esbuild-jest) and it was created because the original project was abandoned and it also includes some changes from another similar projects such like:
 - [esjest-transform](https://github.com/threepointone/esjest-transform);
 - [jest-esbuild](https://www.npmjs.com/package/jest-esbuild);
 - [esbuild-runner](https://www.npmjs.com/package/esbuild-runner);
