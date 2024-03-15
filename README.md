@@ -6,6 +6,9 @@ This is a for of [esbuild-jest](https://github.com/aelbore/esbuild-jest) and it 
 - [esbuild-runner](https://www.npmjs.com/package/esbuild-runner);
 - [esbuild-jest-transform](https://www.npmjs.com/package/esbuild-jest-transform);
 
+Also:
+- support jest v29+;
+
 ## A Jest transformer using esbuild
 With this transformer you can use and transform (ts, js, tsx and jsx) files
 
@@ -15,7 +18,7 @@ With this transformer you can use and transform (ts, js, tsx and jsx) files
 npm install --save-dev esbuild-jest2 esbuild
 ```
 
-#### Setting up Jest config file
+### Setting up Jest config file
 
 esbuild-jest transformer should be used in your Jest config file like this:
 
