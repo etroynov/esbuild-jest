@@ -25,7 +25,7 @@ esbuild-jest transformer should be used in your Jest config file like this:
 ```js
 {
   "transform": {
-    "^.+\\.tsx?$": "esbuild-jest"
+    "^.+\\.tsx?$": "esbuild-jest2"
   }
 }
 ```
@@ -48,7 +48,7 @@ export interface Options {
 {
   "transform": {
     "^.+\\.tsx?$": [ 
-      "esbuild-jest", 
+      "esbuild-jest2", 
       { 
         sourcemap: true,
         loaders: {
