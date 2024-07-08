@@ -1,12 +1,13 @@
 import * as React from "react"
 import { StrictMode } from "react"
-import { render } from "react-dom"
+import { createRoot } from "react-dom/client"
 
 import App from "./App"
 
-render(
+const root = createRoot(document.getElementById('app'))
+
+root.render(
   <StrictMode>
     <App />
-  </StrictMode>,
-  document.getElementById("app")
+  </StrictMode>
 )
